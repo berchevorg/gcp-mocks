@@ -28,7 +28,7 @@ resource "google_compute_network" "custom-test" {
 }
 
 resource "google_service_account" "default" {
-  account_id   = "service_account_id"
+  account_id   = "service-account-id"
   display_name = "Service Account"
 }
 
